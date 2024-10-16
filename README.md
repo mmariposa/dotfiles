@@ -20,3 +20,6 @@ things may not work as expected. please, keep in mind these config are for my sp
 
 - **rofi**: i edited some parts of the config but i don't really know hot it's set up so it may relay in other component that are not here.
 
+### screenshots
+![screenshot 1](/screenshots/1.png)
+![screenshot 2](/screenshots/2.png)

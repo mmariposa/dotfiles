@@ -1,7 +1,7 @@
 ### Dotfiles repo
 this are the dotfiles for my setup. the current files you can find here are:
 
-- gtk theme: the gtk theme i use in this setup is the [dracula theme](https://draculatheme.com/gtk)
+- gtk theme: (this is not actually in this repo) the gtk theme i use in this setup is the [dracula theme](https://draculatheme.com/gtk)
 - gtk.css: moslty for the xfce4-panel theme
 - [dunst](https://github.com/dunst-project/dunst): notification daemon
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch): neofetch-like information tool

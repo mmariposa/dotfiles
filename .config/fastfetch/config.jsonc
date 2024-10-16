@@ -1,0 +1,60 @@
+// Inspired by Catnap
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "none",
+        "padding": {
+            "top": 1
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "key": "╭──────────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#31}{icon} distro     {#keys}│ {#31}❯",
+            "type": "os"
+        },
+        {
+            "key": "│ {#32} kernel     {#keys}│ {#31}❯",
+            "type": "kernel"
+        },
+        {
+            "key": "│ {#33} paquetes   {#keys}│ {#31}❯",
+            "type": "packages"
+        },
+        {
+            "key": "│ {#34}󰇄 escritorio {#keys}│ {#31}❯",
+            "type": "de"
+        },
+        {
+            "key": "│ {#35} wm         {#keys}│ {#31}❯",
+            "type": "wm"
+        },
+        {
+            "key": "│ {#36} terminal   {#keys}│ {#31}❯",
+            "type": "terminal"
+        },
+        {
+            "key": "│ {#37} shell      {#keys}│ {#31}❯",
+            "type": "shell"
+        },
+        {
+            "key": "├──────────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#33} colores    {#keys}│ {#31}❯",
+            "type": "colors",
+            "symbol": "circle"
+        },
+        {
+            "key": "╰──────────────╯",
+            "type": "custom"
+        }
+    ]
+}

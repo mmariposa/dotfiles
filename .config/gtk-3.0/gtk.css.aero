@@ -1,0 +1,129 @@
+#xfce4-terminal-notebook vte-terminal {
+    padding: 13px;
+}
+
+.xfce4-panel#XfcePanelWindow {
+    border: none;
+    border-bottom: 1px solid rgba(248,248,242,0.3);
+}
+.xfce4-panel {
+    border: none;
+    border-radius: 0px;
+    color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(208, 176, 255, 0.6), rgba(40, 42, 60, 0.4) 50%);
+}
+
+#whiskermenu-button,
+.tasklist button,
+.systray-6,
+#sn-button,
+#xfce4-notification-plugin,
+#pulseaudio-button,
+#clock-button,
+#actions-button
+{
+    border-radius: 8px;
+    border: 1px solid rgba(40,42,54,0.5);
+    background: transparent;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+#whiskermenu-button:checked,
+.tasklist button:checked,
+.systray-6:checked,
+#sn-button:checked,
+#xfce4-notification-plugin:checked,
+#pulseaudio-button:checked,
+#clock-button:checked,
+#actions-button:checked
+{
+    background-image: linear-gradient(180deg, rgba(248, 248, 242, 0.5) 30%, rgba(243, 243, 243, 0.2) 50%);
+}
+
+#whiskermenu-button:hover,
+.tasklist button:hover,
+.systray-6:hover,
+#sn-button:hover,
+#xfce4-notification-plugin:hover,
+#pulseaudio-button:hover,
+#clock-button:hover,
+#actions-button:hover {
+background-color: rgba(248, 248, 242, 0.3);
+}
+
+#whiskermenu-button {
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 6px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    
+}
+#whiskermenu-button:checked {
+color: #50FA7B;
+}
+
+.tasklist button {
+margin-bottom: 3px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+.systray-6 {
+margin-bottom: 3px;
+margin-left: 0px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+#sn-button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+margin-bottom: 3px;
+padding-left: 7px;
+padding-right: 7px;
+}
+
+#xfce4-notification-plugin {
+margin-bottom: 3px;
+margin-left: 0px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+#pulseaudio-button {
+margin-bottom: 3px;
+margin-left: 0px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+#clock-button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+margin-bottom: 3px;
+margin-left: 0px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+#actions-button {
+font-size: 16px;
+margin-bottom: 3px;
+margin-right: 5px;
+padding-left: 5px;
+padding-right: 9px;
+}
+/*#actions-button:checked {
+color: #FF79C6;
+}*/

@@ -3,7 +3,7 @@ this are the dotfiles for my setup. the current files you can find here are:
 
 - gtk theme: (this is not actually in this repo) the gtk theme i use in this setup is the [dracula theme](https://draculatheme.com/gtk) and the [dracula icons](https://github.com/m4thewz/dracula-icons/)
 - `gtk.css`: moslty for the xfce4-panel theme
-- window manager: there's actually configs for [awesome](https://awesomewm.org/), [i3](https://i3wm.org/) and [qtile](https://qtile.org/) with basically the same look, chose whatever you want.
+- window manager: there's actually configs for [awesome](https://awesomewm.org/), [i3](https://i3wm.org/) and [qtile](https://qtile.org/) with basically the same look, choose whatever you want.
 - [dunst](https://github.com/dunst-project/dunst): notification daemon
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch): neofetch-like information tool
 - [kitty](https://github.com/kovidgoyal/kitty) / [alacritty](https://github.com/alacritty/alacritty): terminals, both configs makes them look basically the same
